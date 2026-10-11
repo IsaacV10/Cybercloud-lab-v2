@@ -1,0 +1,31 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets and keys
+*.pem
+*.key
+*.pub
+.env
+.env.*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Data and logs (raw data lives outside the repo)
+*.log
+*.ndjson
+*.tar.gz
+*.db
+*.sqlite
+data/
+
+# OS and editor
+Thumbs.db
+.DS_Store
+.vscode/
